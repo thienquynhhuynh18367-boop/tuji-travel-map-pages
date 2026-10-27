@@ -1,0 +1,54 @@
+{
+  "product": "途迹 TUJI",
+  "sourceCommit": "f341005464cc9a6a80f6e342c141d260698f20e0",
+  "builtFiles": {
+    "assets/index-BwuVHNtB.js": {
+      "bytes": 1449833,
+      "sha256": "bf9f808a5f9d7160af5ebfe29db2c43c3ed64f111aca177373dc24c3f234d650"
+    },
+    "assets/index-DfLe9mCr.css": {
+      "bytes": 102948,
+      "sha256": "c5a68d8e7251ff573d4980489327fc457fccbc1a3ea5bfb2ac998f48486b0078"
+    },
+    "assets/maplibre-gl-worker-Br3j0JGE.js": {
+      "bytes": 518989,
+      "sha256": "8f1d61da119b6435280520b6e81896d47858d83e2af76b2288015425550d8dc4"
+    },
+    "data/china-coverage.json": {
+      "bytes": 69254,
+      "sha256": "3bec9f372f98200b2ad1bee58cf0d403d2ca07c6aba671d5c0a65c63107d1398"
+    },
+    "data/china.topo.json": {
+      "bytes": 634421,
+      "sha256": "bb3c18c9200e283eb304775707c8d4e636a89a0806ab7b97740c951325dcd92c"
+    },
+    "data/SOURCES.md": {
+      "bytes": 5355,
+      "sha256": "ddf3a17321f96e27fddff8bf52e48283c84592d43721fbbfab30957767107857"
+    },
+    "favicon.svg": {
+      "bytes": 262,
+      "sha256": "a8cba07f132d5ba6f09b73556319752da96fdbefdf5d07548b8c93a0bf067bc3"
+    },
+    "fonts/OFL.txt": {
+      "bytes": 4396,
+      "sha256": "54107539e415cc21d97752b7b1738c3d152451863f65e2c4e51556d3ceab1ab9"
+    },
+    "fonts/README.md": {
+      "bytes": 300,
+      "sha256": "2756123741370ba6ad943f4f58b9e51a88a41df1d3ec4f980eace9b931611e97"
+    },
+    "fonts/tuji-handwriting.ttf": {
+      "bytes": 18636,
+      "sha256": "2673b13c9a67e9814a93446e9a73dfd97192ffd6936b3d99cf5c1d57ebffa7b7"
+    },
+    "index.html": {
+      "bytes": 608,
+      "sha256": "d803d939c90c777c22c8592327a2c2fd462c8147d8bc350b7b619092ed3ff7f3"
+    },
+    "THIRD_PARTY_NOTICES.txt": {
+      "bytes": 81205,
+      "sha256": "895d307d3cb2133e4e623cdf3269a8365026530c2252b155927cf037b993125c"
+    }
+  }
+}

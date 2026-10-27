@@ -1,0 +1,2919 @@
+{
+  "source": "OCHA COD-AB China 2020 / CC BY 3.0 IGO",
+  "interactive": 356,
+  "prefecture": 332,
+  "municipalities": 4,
+  "provinceDirect": 20,
+  "provinces": 34,
+  "sourceFeatures": 361,
+  "missingCurrent": [
+    {
+      "code": "4190",
+      "name": "省直辖县级行政区划",
+      "provinceCode": "41"
+    },
+    {
+      "code": "4290",
+      "name": "省直辖县级行政区划",
+      "provinceCode": "42"
+    },
+    {
+      "code": "4690",
+      "name": "省直辖县级行政区划",
+      "provinceCode": "46"
+    },
+    {
+      "code": "6590",
+      "name": "自治区直辖县级行政区划",
+      "provinceCode": "65"
+    }
+  ],
+  "limitations": [
+    "边界来自 2020 分发的历史底图（源机构 2024 核验），不是 2026 实时行政区划。已按 2019 国务院调整将莱芜并入济南；更名校对不代表边界已更新。",
+    "南海诸岛、钓鱼岛及附属岛屿的完整几何与海域界线未获可靠同源数据；当前不声称中国完整疆域展示或已取得审图号。",
+    "港澳台仅保留省级轮廓，不开放地级区域填色；三沙源面缺少完整岛礁，暂不开放填色。",
+    "省直管县级单元明确标记为补充区域，不冒充地级市；新设行政区域覆盖限制详见数据说明。"
+  ],
+  "regions": [
+    {
+      "adcode": "650200",
+      "name": "克拉玛依市",
+      "provinceCode": "650000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN065100"
+    },
+    {
+      "adcode": "652300",
+      "name": "昌吉回族自治州",
+      "provinceCode": "650000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN065060"
+    },
+    {
+      "adcode": "659001",
+      "name": "石河子市",
+      "provinceCode": "650000",
+      "kind": "省直管县级补充单元",
+      "fillable": true,
+      "sourceCode": "CN065130"
+    },
+    {
+      "adcode": "152500",
+      "name": "锡林郭勒盟",
+      "provinceCode": "150000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN015120"
+    },
+    {
+      "adcode": "210500",
+      "name": "本溪市",
+      "provinceCode": "210000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN021020"
+    },
+    {
+      "adcode": "620200",
+      "name": "嘉峪关市",
+      "provinceCode": "620000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN062040"
+    },
+    {
+      "adcode": "370100",
+      "name": "济南市",
+      "provinceCode": "370000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN037070"
+    },
+    {
+      "adcode": "429021",
+      "name": "神农架林区",
+      "provinceCode": "420000",
+      "kind": "省直管县级补充单元",
+      "fillable": true,
+      "sourceCode": "CN042080"
+    },
+    {
+      "adcode": "429006",
+      "name": "天门市",
+      "provinceCode": "420000",
+      "kind": "省直管县级补充单元",
+      "fillable": true,
+      "sourceCode": "CN042110"
+    },
+    {
+      "adcode": "420700",
+      "name": "鄂州市",
+      "provinceCode": "420000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN042020"
+    },
+    {
+      "adcode": "429005",
+      "name": "潜江市",
+      "provinceCode": "420000",
+      "kind": "省直管县级补充单元",
+      "fillable": true,
+      "sourceCode": "CN042070"
+    },
+    {
+      "adcode": "429004",
+      "name": "仙桃市",
+      "provinceCode": "420000",
+      "kind": "省直管县级补充单元",
+      "fillable": true,
+      "sourceCode": "CN042150"
+    },
+    {
+      "adcode": "360300",
+      "name": "萍乡市",
+      "provinceCode": "360000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN036070"
+    },
+    {
+      "adcode": "710000",
+      "name": "台湾省",
+      "provinceCode": "710000",
+      "kind": "省级轮廓",
+      "fillable": false,
+      "sourceCode": "CN071010"
+    },
+    {
+      "adcode": "441900",
+      "name": "东莞市",
+      "provinceCode": "440000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN044020"
+    },
+    {
+      "adcode": "442000",
+      "name": "中山市",
+      "provinceCode": "440000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN044200"
+    },
+    {
+      "adcode": "440400",
+      "name": "珠海市",
+      "provinceCode": "440000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN044210"
+    },
+    {
+      "adcode": "450500",
+      "name": "北海市",
+      "provinceCode": "450000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN045020"
+    },
+    {
+      "adcode": "810000",
+      "name": "香港特别行政区",
+      "provinceCode": "810000",
+      "kind": "省级轮廓",
+      "fillable": false,
+      "sourceCode": "CN081010"
+    },
+    {
+      "adcode": "330900",
+      "name": "舟山市",
+      "provinceCode": "330000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN033110"
+    },
+    {
+      "adcode": "653000",
+      "name": "克孜勒苏柯尔克孜自治州",
+      "provinceCode": "650000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN065120"
+    },
+    {
+      "adcode": "653100",
+      "name": "喀什地区",
+      "provinceCode": "650000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN065110"
+    },
+    {
+      "adcode": "652900",
+      "name": "阿克苏地区",
+      "provinceCode": "650000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN065020"
+    },
+    {
+      "adcode": "653200",
+      "name": "和田地区",
+      "provinceCode": "650000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN065080"
+    },
+    {
+      "adcode": "542500",
+      "name": "阿里地区",
+      "provinceCode": "540000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN054040"
+    },
+    {
+      "adcode": "540200",
+      "name": "日喀则市",
+      "provinceCode": "540000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN054070"
+    },
+    {
+      "adcode": "540600",
+      "name": "那曲市",
+      "provinceCode": "540000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN054030"
+    },
+    {
+      "adcode": "632700",
+      "name": "玉树藏族自治州",
+      "provinceCode": "630000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN063080"
+    },
+    {
+      "adcode": "533400",
+      "name": "迪庆藏族自治州",
+      "provinceCode": "530000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN053030"
+    },
+    {
+      "adcode": "533300",
+      "name": "怒江傈僳族自治州",
+      "provinceCode": "530000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN053100"
+    },
+    {
+      "adcode": "532900",
+      "name": "大理白族自治州",
+      "provinceCode": "530000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN053040"
+    },
+    {
+      "adcode": "533100",
+      "name": "德宏傣族景颇族自治州",
+      "provinceCode": "530000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN053050"
+    },
+    {
+      "adcode": "530500",
+      "name": "保山市",
+      "provinceCode": "530000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN053010"
+    },
+    {
+      "adcode": "530900",
+      "name": "临沧市",
+      "provinceCode": "530000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN053090"
+    },
+    {
+      "adcode": "530800",
+      "name": "普洱市",
+      "provinceCode": "530000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN053110"
+    },
+    {
+      "adcode": "532800",
+      "name": "西双版纳傣族自治州",
+      "provinceCode": "530000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN053140"
+    },
+    {
+      "adcode": "540100",
+      "name": "拉萨市",
+      "provinceCode": "540000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN054010"
+    },
+    {
+      "adcode": "540500",
+      "name": "山南市",
+      "provinceCode": "540000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN054020"
+    },
+    {
+      "adcode": "540400",
+      "name": "林芝市",
+      "provinceCode": "540000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN054050"
+    },
+    {
+      "adcode": "540300",
+      "name": "昌都市",
+      "provinceCode": "540000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN054060"
+    },
+    {
+      "adcode": "530700",
+      "name": "丽江市",
+      "provinceCode": "530000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN053080"
+    },
+    {
+      "adcode": "510400",
+      "name": "攀枝花市",
+      "provinceCode": "510000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN051160"
+    },
+    {
+      "adcode": "513400",
+      "name": "凉山彝族自治州",
+      "provinceCode": "510000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN051090"
+    },
+    {
+      "adcode": "532300",
+      "name": "楚雄彝族自治州",
+      "provinceCode": "530000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN053020"
+    },
+    {
+      "adcode": "532500",
+      "name": "红河哈尼族彝族自治州",
+      "provinceCode": "530000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN053060"
+    },
+    {
+      "adcode": "532600",
+      "name": "文山壮族苗族自治州",
+      "provinceCode": "530000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN053130"
+    },
+    {
+      "adcode": "451000",
+      "name": "百色市",
+      "provinceCode": "450000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN045010"
+    },
+    {
+      "adcode": "451400",
+      "name": "崇左市",
+      "provinceCode": "450000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN045030"
+    },
+    {
+      "adcode": "450600",
+      "name": "防城港市",
+      "provinceCode": "450000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN045040"
+    },
+    {
+      "adcode": "450100",
+      "name": "南宁市",
+      "provinceCode": "450000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN045110"
+    },
+    {
+      "adcode": "450700",
+      "name": "钦州市",
+      "provinceCode": "450000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN045120"
+    },
+    {
+      "adcode": "450900",
+      "name": "玉林市",
+      "provinceCode": "450000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN045140"
+    },
+    {
+      "adcode": "440800",
+      "name": "湛江市",
+      "provinceCode": "440000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN044180"
+    },
+    {
+      "adcode": "440900",
+      "name": "茂名市",
+      "provinceCode": "440000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN044090"
+    },
+    {
+      "adcode": "441700",
+      "name": "阳江市",
+      "provinceCode": "440000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN044160"
+    },
+    {
+      "adcode": "440700",
+      "name": "江门市",
+      "provinceCode": "440000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN044070"
+    },
+    {
+      "adcode": "440100",
+      "name": "广州市",
+      "provinceCode": "440000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN044040"
+    },
+    {
+      "adcode": "441800",
+      "name": "清远市",
+      "provinceCode": "440000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN044110"
+    },
+    {
+      "adcode": "441200",
+      "name": "肇庆市",
+      "provinceCode": "440000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN044190"
+    },
+    {
+      "adcode": "450400",
+      "name": "梧州市",
+      "provinceCode": "450000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN045130"
+    },
+    {
+      "adcode": "451100",
+      "name": "贺州市",
+      "provinceCode": "450000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN045080"
+    },
+    {
+      "adcode": "450300",
+      "name": "桂林市",
+      "provinceCode": "450000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN045060"
+    },
+    {
+      "adcode": "450200",
+      "name": "柳州市",
+      "provinceCode": "450000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN045100"
+    },
+    {
+      "adcode": "451200",
+      "name": "河池市",
+      "provinceCode": "450000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN045070"
+    },
+    {
+      "adcode": "522600",
+      "name": "黔东南苗族侗族自治州",
+      "provinceCode": "520000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN052050"
+    },
+    {
+      "adcode": "520100",
+      "name": "贵阳市",
+      "provinceCode": "520000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN052030"
+    },
+    {
+      "adcode": "520400",
+      "name": "安顺市",
+      "provinceCode": "520000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN052010"
+    },
+    {
+      "adcode": "522300",
+      "name": "黔西南布依族苗族自治州",
+      "provinceCode": "520000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN052070"
+    },
+    {
+      "adcode": "530300",
+      "name": "曲靖市",
+      "provinceCode": "530000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN053120"
+    },
+    {
+      "adcode": "520200",
+      "name": "六盘水市",
+      "provinceCode": "520000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN052040"
+    },
+    {
+      "adcode": "520500",
+      "name": "毕节市",
+      "provinceCode": "520000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN052020"
+    },
+    {
+      "adcode": "530600",
+      "name": "昭通市",
+      "provinceCode": "530000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN053160"
+    },
+    {
+      "adcode": "511500",
+      "name": "宜宾市",
+      "provinceCode": "510000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN051190"
+    },
+    {
+      "adcode": "511100",
+      "name": "乐山市",
+      "provinceCode": "510000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN051080"
+    },
+    {
+      "adcode": "510300",
+      "name": "自贡市",
+      "provinceCode": "510000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN051200"
+    },
+    {
+      "adcode": "511000",
+      "name": "内江市",
+      "provinceCode": "510000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN051140"
+    },
+    {
+      "adcode": "520300",
+      "name": "遵义市",
+      "provinceCode": "520000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN052090"
+    },
+    {
+      "adcode": "511700",
+      "name": "达州市",
+      "provinceCode": "510000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN051030"
+    },
+    {
+      "adcode": "510900",
+      "name": "遂宁市",
+      "provinceCode": "510000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN051170"
+    },
+    {
+      "adcode": "511600",
+      "name": "广安市",
+      "provinceCode": "510000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN051060"
+    },
+    {
+      "adcode": "510500",
+      "name": "泸州市",
+      "provinceCode": "510000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN051100"
+    },
+    {
+      "adcode": "512000",
+      "name": "资阳市",
+      "provinceCode": "510000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN051210"
+    },
+    {
+      "adcode": "511800",
+      "name": "雅安市",
+      "provinceCode": "510000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN051180"
+    },
+    {
+      "adcode": "511400",
+      "name": "眉山市",
+      "provinceCode": "510000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN051110"
+    },
+    {
+      "adcode": "513300",
+      "name": "甘孜藏族自治州",
+      "provinceCode": "510000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN051050"
+    },
+    {
+      "adcode": "632600",
+      "name": "果洛藏族自治州",
+      "provinceCode": "630000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN063010"
+    },
+    {
+      "adcode": "632500",
+      "name": "海南藏族自治州",
+      "provinceCode": "630000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN063040"
+    },
+    {
+      "adcode": "632300",
+      "name": "黄南藏族自治州",
+      "provinceCode": "630000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN063060"
+    },
+    {
+      "adcode": "623000",
+      "name": "甘南藏族自治州",
+      "provinceCode": "620000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN062030"
+    },
+    {
+      "adcode": "621200",
+      "name": "陇南市",
+      "provinceCode": "620000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN062090"
+    },
+    {
+      "adcode": "620500",
+      "name": "天水市",
+      "provinceCode": "620000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN062120"
+    },
+    {
+      "adcode": "621100",
+      "name": "定西市",
+      "provinceCode": "620000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN062020"
+    },
+    {
+      "adcode": "622900",
+      "name": "临夏回族自治州",
+      "provinceCode": "620000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN062080"
+    },
+    {
+      "adcode": "630100",
+      "name": "西宁市",
+      "provinceCode": "630000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN063070"
+    },
+    {
+      "adcode": "630200",
+      "name": "海东市",
+      "provinceCode": "630000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN063030"
+    },
+    {
+      "adcode": "632200",
+      "name": "海北藏族自治州",
+      "provinceCode": "630000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN063020"
+    },
+    {
+      "adcode": "620300",
+      "name": "金昌市",
+      "provinceCode": "620000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN062050"
+    },
+    {
+      "adcode": "620900",
+      "name": "酒泉市",
+      "provinceCode": "620000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN062060"
+    },
+    {
+      "adcode": "632800",
+      "name": "海西蒙古族藏族自治州",
+      "provinceCode": "630000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN063050"
+    },
+    {
+      "adcode": "652800",
+      "name": "巴音郭楞蒙古自治州",
+      "provinceCode": "650000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN065040"
+    },
+    {
+      "adcode": "650500",
+      "name": "哈密市",
+      "provinceCode": "650000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN065070"
+    },
+    {
+      "adcode": "650400",
+      "name": "吐鲁番市",
+      "provinceCode": "650000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN065150"
+    },
+    {
+      "adcode": "650100",
+      "name": "乌鲁木齐市",
+      "provinceCode": "650000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN065010"
+    },
+    {
+      "adcode": "654300",
+      "name": "阿勒泰地区",
+      "provinceCode": "650000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN065030"
+    },
+    {
+      "adcode": "652700",
+      "name": "博尔塔拉蒙古自治州",
+      "provinceCode": "650000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN065050"
+    },
+    {
+      "adcode": "654000",
+      "name": "伊犁哈萨克自治州",
+      "provinceCode": "650000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN065090"
+    },
+    {
+      "adcode": "152900",
+      "name": "阿拉善盟",
+      "provinceCode": "150000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN015010"
+    },
+    {
+      "adcode": "620600",
+      "name": "武威市",
+      "provinceCode": "620000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN062130"
+    },
+    {
+      "adcode": "620100",
+      "name": "兰州市",
+      "provinceCode": "620000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN062070"
+    },
+    {
+      "adcode": "640500",
+      "name": "中卫市",
+      "provinceCode": "640000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN064050"
+    },
+    {
+      "adcode": "640100",
+      "name": "银川市",
+      "provinceCode": "640000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN064040"
+    },
+    {
+      "adcode": "640200",
+      "name": "石嘴山市",
+      "provinceCode": "640000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN064020"
+    },
+    {
+      "adcode": "150300",
+      "name": "乌海市",
+      "provinceCode": "150000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN015110"
+    },
+    {
+      "adcode": "150600",
+      "name": "鄂尔多斯市",
+      "provinceCode": "150000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN015080"
+    },
+    {
+      "adcode": "150800",
+      "name": "巴彦淖尔市",
+      "provinceCode": "150000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN015030"
+    },
+    {
+      "adcode": "150200",
+      "name": "包头市",
+      "provinceCode": "150000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN015020"
+    },
+    {
+      "adcode": "150100",
+      "name": "呼和浩特市",
+      "provinceCode": "150000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN015060"
+    },
+    {
+      "adcode": "150900",
+      "name": "乌兰察布市",
+      "provinceCode": "150000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN015100"
+    },
+    {
+      "adcode": "140200",
+      "name": "大同市",
+      "provinceCode": "140000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN014020"
+    },
+    {
+      "adcode": "140600",
+      "name": "朔州市",
+      "provinceCode": "140000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN014070"
+    },
+    {
+      "adcode": "140900",
+      "name": "忻州市",
+      "provinceCode": "140000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN014090"
+    },
+    {
+      "adcode": "610800",
+      "name": "榆林市",
+      "provinceCode": "610000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN061100"
+    },
+    {
+      "adcode": "610600",
+      "name": "延安市",
+      "provinceCode": "610000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN061090"
+    },
+    {
+      "adcode": "621000",
+      "name": "庆阳市",
+      "provinceCode": "620000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN062110"
+    },
+    {
+      "adcode": "640400",
+      "name": "固原市",
+      "provinceCode": "640000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN064010"
+    },
+    {
+      "adcode": "620400",
+      "name": "白银市",
+      "provinceCode": "620000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN062010"
+    },
+    {
+      "adcode": "610300",
+      "name": "宝鸡市",
+      "provinceCode": "610000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN061020"
+    },
+    {
+      "adcode": "610700",
+      "name": "汉中市",
+      "provinceCode": "610000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN061030"
+    },
+    {
+      "adcode": "510800",
+      "name": "广元市",
+      "provinceCode": "510000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN051070"
+    },
+    {
+      "adcode": "511900",
+      "name": "巴中市",
+      "provinceCode": "510000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN051010"
+    },
+    {
+      "adcode": "511300",
+      "name": "南充市",
+      "provinceCode": "510000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN051130"
+    },
+    {
+      "adcode": "510700",
+      "name": "绵阳市",
+      "provinceCode": "510000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN051120"
+    },
+    {
+      "adcode": "510600",
+      "name": "德阳市",
+      "provinceCode": "510000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN051040"
+    },
+    {
+      "adcode": "510100",
+      "name": "成都市",
+      "provinceCode": "510000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN051020"
+    },
+    {
+      "adcode": "513200",
+      "name": "阿坝藏族羌族自治州",
+      "provinceCode": "510000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN051150"
+    },
+    {
+      "adcode": "610900",
+      "name": "安康市",
+      "provinceCode": "610000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN061010"
+    },
+    {
+      "adcode": "420300",
+      "name": "十堰市",
+      "provinceCode": "420000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN042090"
+    },
+    {
+      "adcode": "420600",
+      "name": "襄阳市",
+      "provinceCode": "420000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN042130"
+    },
+    {
+      "adcode": "420500",
+      "name": "宜昌市",
+      "provinceCode": "420000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN042170"
+    },
+    {
+      "adcode": "422800",
+      "name": "恩施土家族苗族自治州",
+      "provinceCode": "420000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN042010"
+    },
+    {
+      "adcode": "430800",
+      "name": "张家界市",
+      "provinceCode": "430000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN043130"
+    },
+    {
+      "adcode": "433100",
+      "name": "湘西土家族苗族自治州",
+      "provinceCode": "430000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN043090"
+    },
+    {
+      "adcode": "520600",
+      "name": "铜仁市",
+      "provinceCode": "520000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN052080"
+    },
+    {
+      "adcode": "500000",
+      "name": "重庆市",
+      "provinceCode": "500000",
+      "kind": "直辖市",
+      "fillable": true,
+      "sourceCode": "CN050010"
+    },
+    {
+      "adcode": "431200",
+      "name": "怀化市",
+      "provinceCode": "430000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN043050"
+    },
+    {
+      "adcode": "430900",
+      "name": "益阳市",
+      "provinceCode": "430000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN043100"
+    },
+    {
+      "adcode": "431300",
+      "name": "娄底市",
+      "provinceCode": "430000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN043060"
+    },
+    {
+      "adcode": "430700",
+      "name": "常德市",
+      "provinceCode": "430000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN043010"
+    },
+    {
+      "adcode": "421000",
+      "name": "荆州市",
+      "provinceCode": "420000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN042060"
+    },
+    {
+      "adcode": "420800",
+      "name": "荆门市",
+      "provinceCode": "420000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN042050"
+    },
+    {
+      "adcode": "430600",
+      "name": "岳阳市",
+      "provinceCode": "430000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN043120"
+    },
+    {
+      "adcode": "430100",
+      "name": "长沙市",
+      "provinceCode": "430000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN043020"
+    },
+    {
+      "adcode": "430300",
+      "name": "湘潭市",
+      "provinceCode": "430000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN043080"
+    },
+    {
+      "adcode": "430200",
+      "name": "株洲市",
+      "provinceCode": "430000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN043140"
+    },
+    {
+      "adcode": "430400",
+      "name": "衡阳市",
+      "provinceCode": "430000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN043040"
+    },
+    {
+      "adcode": "430500",
+      "name": "邵阳市",
+      "provinceCode": "430000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN043070"
+    },
+    {
+      "adcode": "431100",
+      "name": "永州市",
+      "provinceCode": "430000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN043110"
+    },
+    {
+      "adcode": "440200",
+      "name": "韶关市",
+      "provinceCode": "440000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN044140"
+    },
+    {
+      "adcode": "441300",
+      "name": "惠州市",
+      "provinceCode": "440000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN044060"
+    },
+    {
+      "adcode": "440600",
+      "name": "佛山市",
+      "provinceCode": "440000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN044030"
+    },
+    {
+      "adcode": "445300",
+      "name": "云浮市",
+      "provinceCode": "440000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN044170"
+    },
+    {
+      "adcode": "440300",
+      "name": "深圳市",
+      "provinceCode": "440000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN044150"
+    },
+    {
+      "adcode": "441500",
+      "name": "汕尾市",
+      "provinceCode": "440000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN044130"
+    },
+    {
+      "adcode": "441600",
+      "name": "河源市",
+      "provinceCode": "440000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN044050"
+    },
+    {
+      "adcode": "445200",
+      "name": "揭阳市",
+      "provinceCode": "440000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN044080"
+    },
+    {
+      "adcode": "440500",
+      "name": "汕头市",
+      "provinceCode": "440000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN044120"
+    },
+    {
+      "adcode": "445100",
+      "name": "潮州市",
+      "provinceCode": "440000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN044010"
+    },
+    {
+      "adcode": "441400",
+      "name": "梅州市",
+      "provinceCode": "440000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN044100"
+    },
+    {
+      "adcode": "350600",
+      "name": "漳州市",
+      "provinceCode": "350000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN035090"
+    },
+    {
+      "adcode": "350200",
+      "name": "厦门市",
+      "provinceCode": "350000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN035080"
+    },
+    {
+      "adcode": "350800",
+      "name": "龙岩市",
+      "provinceCode": "350000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN035020"
+    },
+    {
+      "adcode": "350500",
+      "name": "泉州市",
+      "provinceCode": "350000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN035060"
+    },
+    {
+      "adcode": "350300",
+      "name": "莆田市",
+      "provinceCode": "350000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN035050"
+    },
+    {
+      "adcode": "350100",
+      "name": "福州市",
+      "provinceCode": "350000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN035010"
+    },
+    {
+      "adcode": "350400",
+      "name": "三明市",
+      "provinceCode": "350000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN035070"
+    },
+    {
+      "adcode": "350700",
+      "name": "南平市",
+      "provinceCode": "350000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN035030"
+    },
+    {
+      "adcode": "361000",
+      "name": "抚州市",
+      "provinceCode": "360000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN036010"
+    },
+    {
+      "adcode": "360600",
+      "name": "鹰潭市",
+      "provinceCode": "360000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN036110"
+    },
+    {
+      "adcode": "360800",
+      "name": "吉安市",
+      "provinceCode": "360000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN036030"
+    },
+    {
+      "adcode": "360700",
+      "name": "赣州市",
+      "provinceCode": "360000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN036020"
+    },
+    {
+      "adcode": "431000",
+      "name": "郴州市",
+      "provinceCode": "430000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN043030"
+    },
+    {
+      "adcode": "360500",
+      "name": "新余市",
+      "provinceCode": "360000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN036090"
+    },
+    {
+      "adcode": "360900",
+      "name": "宜春市",
+      "provinceCode": "360000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN036100"
+    },
+    {
+      "adcode": "360100",
+      "name": "南昌市",
+      "provinceCode": "360000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN036060"
+    },
+    {
+      "adcode": "360400",
+      "name": "九江市",
+      "provinceCode": "360000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN036050"
+    },
+    {
+      "adcode": "361100",
+      "name": "上饶市",
+      "provinceCode": "360000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN036080"
+    },
+    {
+      "adcode": "360200",
+      "name": "景德镇市",
+      "provinceCode": "360000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN036040"
+    },
+    {
+      "adcode": "341000",
+      "name": "黄山市",
+      "provinceCode": "340000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN034100"
+    },
+    {
+      "adcode": "341700",
+      "name": "池州市",
+      "provinceCode": "340000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN034040"
+    },
+    {
+      "adcode": "340700",
+      "name": "铜陵市",
+      "provinceCode": "340000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN034140"
+    },
+    {
+      "adcode": "340800",
+      "name": "安庆市",
+      "provinceCode": "340000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN034010"
+    },
+    {
+      "adcode": "420200",
+      "name": "黄石市",
+      "provinceCode": "420000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN042040"
+    },
+    {
+      "adcode": "421200",
+      "name": "咸宁市",
+      "provinceCode": "420000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN042140"
+    },
+    {
+      "adcode": "421100",
+      "name": "黄冈市",
+      "provinceCode": "420000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN042030"
+    },
+    {
+      "adcode": "420100",
+      "name": "武汉市",
+      "provinceCode": "420000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN042120"
+    },
+    {
+      "adcode": "421300",
+      "name": "随州市",
+      "provinceCode": "420000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN042100"
+    },
+    {
+      "adcode": "411500",
+      "name": "信阳市",
+      "provinceCode": "410000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN041140"
+    },
+    {
+      "adcode": "411700",
+      "name": "驻马店市",
+      "provinceCode": "410000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN041180"
+    },
+    {
+      "adcode": "611000",
+      "name": "商洛市",
+      "provinceCode": "610000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN061040"
+    },
+    {
+      "adcode": "610100",
+      "name": "西安市",
+      "provinceCode": "610000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN061070"
+    },
+    {
+      "adcode": "610500",
+      "name": "渭南市",
+      "provinceCode": "610000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN061060"
+    },
+    {
+      "adcode": "610200",
+      "name": "铜川市",
+      "provinceCode": "610000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN061050"
+    },
+    {
+      "adcode": "610400",
+      "name": "咸阳市",
+      "provinceCode": "610000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN061080"
+    },
+    {
+      "adcode": "411200",
+      "name": "三门峡市",
+      "provinceCode": "410000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN041110"
+    },
+    {
+      "adcode": "140800",
+      "name": "运城市",
+      "provinceCode": "140000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN014110"
+    },
+    {
+      "adcode": "410300",
+      "name": "洛阳市",
+      "provinceCode": "410000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN041070"
+    },
+    {
+      "adcode": "410400",
+      "name": "平顶山市",
+      "provinceCode": "410000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN041090"
+    },
+    {
+      "adcode": "411100",
+      "name": "漯河市",
+      "provinceCode": "410000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN041060"
+    },
+    {
+      "adcode": "411000",
+      "name": "许昌市",
+      "provinceCode": "410000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN041150"
+    },
+    {
+      "adcode": "410100",
+      "name": "郑州市",
+      "provinceCode": "410000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN041160"
+    },
+    {
+      "adcode": "410800",
+      "name": "焦作市",
+      "provinceCode": "410000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN041030"
+    },
+    {
+      "adcode": "140500",
+      "name": "晋城市",
+      "provinceCode": "140000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN014030"
+    },
+    {
+      "adcode": "140400",
+      "name": "长治市",
+      "provinceCode": "140000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN014010"
+    },
+    {
+      "adcode": "141000",
+      "name": "临汾市",
+      "provinceCode": "140000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN014060"
+    },
+    {
+      "adcode": "140100",
+      "name": "太原市",
+      "provinceCode": "140000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN014080"
+    },
+    {
+      "adcode": "141100",
+      "name": "吕梁市",
+      "provinceCode": "140000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN014050"
+    },
+    {
+      "adcode": "140700",
+      "name": "晋中市",
+      "provinceCode": "140000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN014040"
+    },
+    {
+      "adcode": "130400",
+      "name": "邯郸市",
+      "provinceCode": "130000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN013040"
+    },
+    {
+      "adcode": "410500",
+      "name": "安阳市",
+      "provinceCode": "410000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN041010"
+    },
+    {
+      "adcode": "410600",
+      "name": "鹤壁市",
+      "provinceCode": "410000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN041020"
+    },
+    {
+      "adcode": "410700",
+      "name": "新乡市",
+      "provinceCode": "410000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN041130"
+    },
+    {
+      "adcode": "410200",
+      "name": "开封市",
+      "provinceCode": "410000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN041050"
+    },
+    {
+      "adcode": "411600",
+      "name": "周口市",
+      "provinceCode": "410000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN041170"
+    },
+    {
+      "adcode": "341200",
+      "name": "阜阳市",
+      "provinceCode": "340000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN034060"
+    },
+    {
+      "adcode": "340400",
+      "name": "淮南市",
+      "provinceCode": "340000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN034090"
+    },
+    {
+      "adcode": "340300",
+      "name": "蚌埠市",
+      "provinceCode": "340000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN034020"
+    },
+    {
+      "adcode": "340600",
+      "name": "淮北市",
+      "provinceCode": "340000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN034080"
+    },
+    {
+      "adcode": "341300",
+      "name": "宿州市",
+      "provinceCode": "340000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN034130"
+    },
+    {
+      "adcode": "341600",
+      "name": "亳州市",
+      "provinceCode": "340000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN034030"
+    },
+    {
+      "adcode": "411400",
+      "name": "商丘市",
+      "provinceCode": "410000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN041120"
+    },
+    {
+      "adcode": "371700",
+      "name": "菏泽市",
+      "provinceCode": "370000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN037040"
+    },
+    {
+      "adcode": "410900",
+      "name": "濮阳市",
+      "provinceCode": "410000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN041100"
+    },
+    {
+      "adcode": "371500",
+      "name": "聊城市",
+      "provinceCode": "370000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN037080"
+    },
+    {
+      "adcode": "130500",
+      "name": "邢台市",
+      "provinceCode": "130000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN013100"
+    },
+    {
+      "adcode": "130100",
+      "name": "石家庄市",
+      "provinceCode": "130000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN013080"
+    },
+    {
+      "adcode": "140300",
+      "name": "阳泉市",
+      "provinceCode": "140000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN014100"
+    },
+    {
+      "adcode": "130600",
+      "name": "保定市",
+      "provinceCode": "130000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN013010"
+    },
+    {
+      "adcode": "131100",
+      "name": "衡水市",
+      "provinceCode": "130000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN013050"
+    },
+    {
+      "adcode": "371400",
+      "name": "德州市",
+      "provinceCode": "370000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN037020"
+    },
+    {
+      "adcode": "130900",
+      "name": "沧州市",
+      "provinceCode": "130000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN013020"
+    },
+    {
+      "adcode": "131000",
+      "name": "廊坊市",
+      "provinceCode": "130000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN013060"
+    },
+    {
+      "adcode": "120000",
+      "name": "天津市",
+      "provinceCode": "120000",
+      "kind": "直辖市",
+      "fillable": true,
+      "sourceCode": "CN012010"
+    },
+    {
+      "adcode": "110000",
+      "name": "北京市",
+      "provinceCode": "110000",
+      "kind": "直辖市",
+      "fillable": true,
+      "sourceCode": "CN011010"
+    },
+    {
+      "adcode": "130700",
+      "name": "张家口市",
+      "provinceCode": "130000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN013110"
+    },
+    {
+      "adcode": "130200",
+      "name": "唐山市",
+      "provinceCode": "130000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN013090"
+    },
+    {
+      "adcode": "130300",
+      "name": "秦皇岛市",
+      "provinceCode": "130000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN013070"
+    },
+    {
+      "adcode": "130800",
+      "name": "承德市",
+      "provinceCode": "130000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN013030"
+    },
+    {
+      "adcode": "211400",
+      "name": "葫芦岛市",
+      "provinceCode": "210000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN021080"
+    },
+    {
+      "adcode": "211300",
+      "name": "朝阳市",
+      "provinceCode": "210000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN021030"
+    },
+    {
+      "adcode": "150400",
+      "name": "赤峰市",
+      "provinceCode": "150000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN015040"
+    },
+    {
+      "adcode": "210700",
+      "name": "锦州市",
+      "provinceCode": "210000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN021090"
+    },
+    {
+      "adcode": "210800",
+      "name": "营口市",
+      "provinceCode": "210000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN021140"
+    },
+    {
+      "adcode": "210600",
+      "name": "丹东市",
+      "provinceCode": "210000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN021050"
+    },
+    {
+      "adcode": "211000",
+      "name": "辽阳市",
+      "provinceCode": "210000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN021100"
+    },
+    {
+      "adcode": "211100",
+      "name": "盘锦市",
+      "provinceCode": "210000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN021110"
+    },
+    {
+      "adcode": "210900",
+      "name": "阜新市",
+      "provinceCode": "210000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN021070"
+    },
+    {
+      "adcode": "210300",
+      "name": "鞍山市",
+      "provinceCode": "210000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN021010"
+    },
+    {
+      "adcode": "210100",
+      "name": "沈阳市",
+      "provinceCode": "210000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN021120"
+    },
+    {
+      "adcode": "211200",
+      "name": "铁岭市",
+      "provinceCode": "210000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN021130"
+    },
+    {
+      "adcode": "210400",
+      "name": "抚顺市",
+      "provinceCode": "210000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN021060"
+    },
+    {
+      "adcode": "150500",
+      "name": "通辽市",
+      "provinceCode": "150000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN015090"
+    },
+    {
+      "adcode": "152200",
+      "name": "兴安盟",
+      "provinceCode": "150000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN015050"
+    },
+    {
+      "adcode": "220800",
+      "name": "白城市",
+      "provinceCode": "220000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN022010"
+    },
+    {
+      "adcode": "230200",
+      "name": "齐齐哈尔市",
+      "provinceCode": "230000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN023090"
+    },
+    {
+      "adcode": "232700",
+      "name": "大兴安岭地区",
+      "provinceCode": "230000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN023020"
+    },
+    {
+      "adcode": "231100",
+      "name": "黑河市",
+      "provinceCode": "230000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN023050"
+    },
+    {
+      "adcode": "230600",
+      "name": "大庆市",
+      "provinceCode": "230000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN023010"
+    },
+    {
+      "adcode": "231200",
+      "name": "绥化市",
+      "provinceCode": "230000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN023120"
+    },
+    {
+      "adcode": "220700",
+      "name": "松原市",
+      "provinceCode": "220000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN022070"
+    },
+    {
+      "adcode": "220300",
+      "name": "四平市",
+      "provinceCode": "220000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN022060"
+    },
+    {
+      "adcode": "220500",
+      "name": "通化市",
+      "provinceCode": "220000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN022080"
+    },
+    {
+      "adcode": "220400",
+      "name": "辽源市",
+      "provinceCode": "220000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN022050"
+    },
+    {
+      "adcode": "220200",
+      "name": "吉林市",
+      "provinceCode": "220000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN022040"
+    },
+    {
+      "adcode": "220100",
+      "name": "长春市",
+      "provinceCode": "220000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN022030"
+    },
+    {
+      "adcode": "220600",
+      "name": "白山市",
+      "provinceCode": "220000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN022020"
+    },
+    {
+      "adcode": "230100",
+      "name": "哈尔滨市",
+      "provinceCode": "230000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN023030"
+    },
+    {
+      "adcode": "230400",
+      "name": "鹤岗市",
+      "provinceCode": "230000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN023040"
+    },
+    {
+      "adcode": "230700",
+      "name": "伊春市",
+      "provinceCode": "230000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN023130"
+    },
+    {
+      "adcode": "230900",
+      "name": "七台河市",
+      "provinceCode": "230000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN023100"
+    },
+    {
+      "adcode": "230300",
+      "name": "鸡西市",
+      "provinceCode": "230000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN023070"
+    },
+    {
+      "adcode": "230500",
+      "name": "双鸭山市",
+      "provinceCode": "230000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN023110"
+    },
+    {
+      "adcode": "230800",
+      "name": "佳木斯市",
+      "provinceCode": "230000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN023060"
+    },
+    {
+      "adcode": "150700",
+      "name": "呼伦贝尔市",
+      "provinceCode": "150000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN015070"
+    },
+    {
+      "adcode": "420900",
+      "name": "孝感市",
+      "provinceCode": "420000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN042160"
+    },
+    {
+      "adcode": "450800",
+      "name": "贵港市",
+      "provinceCode": "450000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN045050"
+    },
+    {
+      "adcode": "522700",
+      "name": "黔南布依族苗族自治州",
+      "provinceCode": "520000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN052060"
+    },
+    {
+      "adcode": "350900",
+      "name": "宁德市",
+      "provinceCode": "350000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN035040"
+    },
+    {
+      "adcode": "330300",
+      "name": "温州市",
+      "provinceCode": "330000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN033100"
+    },
+    {
+      "adcode": "331000",
+      "name": "台州市",
+      "provinceCode": "330000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN033090"
+    },
+    {
+      "adcode": "331100",
+      "name": "丽水市",
+      "provinceCode": "330000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN033050"
+    },
+    {
+      "adcode": "330800",
+      "name": "衢州市",
+      "provinceCode": "330000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN033070"
+    },
+    {
+      "adcode": "330700",
+      "name": "金华市",
+      "provinceCode": "330000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN033040"
+    },
+    {
+      "adcode": "330600",
+      "name": "绍兴市",
+      "provinceCode": "330000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN033080"
+    },
+    {
+      "adcode": "330200",
+      "name": "宁波市",
+      "provinceCode": "330000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN033060"
+    },
+    {
+      "adcode": "330100",
+      "name": "杭州市",
+      "provinceCode": "330000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN033010"
+    },
+    {
+      "adcode": "341800",
+      "name": "宣城市",
+      "provinceCode": "340000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN034160"
+    },
+    {
+      "adcode": "330500",
+      "name": "湖州市",
+      "provinceCode": "330000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN033020"
+    },
+    {
+      "adcode": "330400",
+      "name": "嘉兴市",
+      "provinceCode": "330000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN033030"
+    },
+    {
+      "adcode": "310000",
+      "name": "上海市",
+      "provinceCode": "310000",
+      "kind": "直辖市",
+      "fillable": true,
+      "sourceCode": "CN031010"
+    },
+    {
+      "adcode": "320500",
+      "name": "苏州市",
+      "provinceCode": "320000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN032070"
+    },
+    {
+      "adcode": "320200",
+      "name": "无锡市",
+      "provinceCode": "320000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN032090"
+    },
+    {
+      "adcode": "320400",
+      "name": "常州市",
+      "provinceCode": "320000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN032010"
+    },
+    {
+      "adcode": "320100",
+      "name": "南京市",
+      "provinceCode": "320000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN032040"
+    },
+    {
+      "adcode": "321100",
+      "name": "镇江市",
+      "provinceCode": "320000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN032130"
+    },
+    {
+      "adcode": "340100",
+      "name": "合肥市",
+      "provinceCode": "340000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN034070"
+    },
+    {
+      "adcode": "341500",
+      "name": "六安市",
+      "provinceCode": "340000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN034110"
+    },
+    {
+      "adcode": "341100",
+      "name": "滁州市",
+      "provinceCode": "340000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN034050"
+    },
+    {
+      "adcode": "321200",
+      "name": "泰州市",
+      "provinceCode": "320000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN032080"
+    },
+    {
+      "adcode": "320600",
+      "name": "南通市",
+      "provinceCode": "320000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN032050"
+    },
+    {
+      "adcode": "320900",
+      "name": "盐城市",
+      "provinceCode": "320000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN032110"
+    },
+    {
+      "adcode": "320800",
+      "name": "淮安市",
+      "provinceCode": "320000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN032020"
+    },
+    {
+      "adcode": "321300",
+      "name": "宿迁市",
+      "provinceCode": "320000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN032060"
+    },
+    {
+      "adcode": "320300",
+      "name": "徐州市",
+      "provinceCode": "320000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN032100"
+    },
+    {
+      "adcode": "370800",
+      "name": "济宁市",
+      "provinceCode": "370000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN037060"
+    },
+    {
+      "adcode": "370400",
+      "name": "枣庄市",
+      "provinceCode": "370000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN037160"
+    },
+    {
+      "adcode": "320700",
+      "name": "连云港市",
+      "provinceCode": "320000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN032030"
+    },
+    {
+      "adcode": "371300",
+      "name": "临沂市",
+      "provinceCode": "370000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN037090"
+    },
+    {
+      "adcode": "371100",
+      "name": "日照市",
+      "provinceCode": "370000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN037110"
+    },
+    {
+      "adcode": "370200",
+      "name": "青岛市",
+      "provinceCode": "370000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN037100"
+    },
+    {
+      "adcode": "371000",
+      "name": "威海市",
+      "provinceCode": "370000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN037140"
+    },
+    {
+      "adcode": "370600",
+      "name": "烟台市",
+      "provinceCode": "370000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN037150"
+    },
+    {
+      "adcode": "370700",
+      "name": "潍坊市",
+      "provinceCode": "370000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN037130"
+    },
+    {
+      "adcode": "370300",
+      "name": "淄博市",
+      "provinceCode": "370000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN037170"
+    },
+    {
+      "adcode": "370900",
+      "name": "泰安市",
+      "provinceCode": "370000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN037120"
+    },
+    {
+      "adcode": "370500",
+      "name": "东营市",
+      "provinceCode": "370000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN037030"
+    },
+    {
+      "adcode": "371600",
+      "name": "滨州市",
+      "provinceCode": "370000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN037010"
+    },
+    {
+      "adcode": "530100",
+      "name": "昆明市",
+      "provinceCode": "530000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN053070"
+    },
+    {
+      "adcode": "530400",
+      "name": "玉溪市",
+      "provinceCode": "530000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN053150"
+    },
+    {
+      "adcode": "654200",
+      "name": "塔城地区",
+      "provinceCode": "650000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN065140"
+    },
+    {
+      "adcode": "620700",
+      "name": "张掖市",
+      "provinceCode": "620000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN062140"
+    },
+    {
+      "adcode": "411300",
+      "name": "南阳市",
+      "provinceCode": "410000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN041080"
+    },
+    {
+      "adcode": "321000",
+      "name": "扬州市",
+      "provinceCode": "320000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN032120"
+    },
+    {
+      "adcode": "222400",
+      "name": "延边朝鲜族自治州",
+      "provinceCode": "220000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN022090"
+    },
+    {
+      "adcode": "231000",
+      "name": "牡丹江市",
+      "provinceCode": "230000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN023080"
+    },
+    {
+      "adcode": "210200",
+      "name": "大连市",
+      "provinceCode": "210000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN021040"
+    },
+    {
+      "adcode": "820000",
+      "name": "澳门特别行政区",
+      "provinceCode": "820000",
+      "kind": "省级轮廓",
+      "fillable": false,
+      "sourceCode": "CN082010"
+    },
+    {
+      "adcode": "640300",
+      "name": "吴忠市",
+      "provinceCode": "640000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN064030"
+    },
+    {
+      "adcode": "451300",
+      "name": "来宾市",
+      "provinceCode": "450000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN045090"
+    },
+    {
+      "adcode": "620800",
+      "name": "平凉市",
+      "provinceCode": "620000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN062100"
+    },
+    {
+      "adcode": "340500",
+      "name": "马鞍山市",
+      "provinceCode": "340000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN034120"
+    },
+    {
+      "adcode": "340200",
+      "name": "芜湖市",
+      "provinceCode": "340000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN034150"
+    },
+    {
+      "adcode": "469024",
+      "name": "临高县",
+      "provinceCode": "460000",
+      "kind": "省直管县级补充单元",
+      "fillable": true,
+      "sourceCode": "CN046100"
+    },
+    {
+      "adcode": "469023",
+      "name": "澄迈县",
+      "provinceCode": "460000",
+      "kind": "省直管县级补充单元",
+      "fillable": true,
+      "sourceCode": "CN046040"
+    },
+    {
+      "adcode": "460300",
+      "name": "三沙市",
+      "provinceCode": "460000",
+      "kind": "边界覆盖不足",
+      "fillable": false,
+      "sourceCode": "CN046140"
+    },
+    {
+      "adcode": "469006",
+      "name": "万宁市",
+      "provinceCode": "460000",
+      "kind": "省直管县级补充单元",
+      "fillable": true,
+      "sourceCode": "CN046170"
+    },
+    {
+      "adcode": "469029",
+      "name": "保亭黎族苗族自治县",
+      "provinceCode": "460000",
+      "kind": "省直管县级补充单元",
+      "fillable": true,
+      "sourceCode": "CN046020"
+    },
+    {
+      "adcode": "469027",
+      "name": "乐东黎族自治县",
+      "provinceCode": "460000",
+      "kind": "省直管县级补充单元",
+      "fillable": true,
+      "sourceCode": "CN046090"
+    },
+    {
+      "adcode": "460400",
+      "name": "儋州市",
+      "provinceCode": "460000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN046050"
+    },
+    {
+      "adcode": "469021",
+      "name": "定安县",
+      "provinceCode": "460000",
+      "kind": "省直管县级补充单元",
+      "fillable": true,
+      "sourceCode": "CN046060"
+    },
+    {
+      "adcode": "469022",
+      "name": "屯昌县",
+      "provinceCode": "460000",
+      "kind": "省直管县级补充单元",
+      "fillable": true,
+      "sourceCode": "CN046160"
+    },
+    {
+      "adcode": "469025",
+      "name": "白沙黎族自治县",
+      "provinceCode": "460000",
+      "kind": "省直管县级补充单元",
+      "fillable": true,
+      "sourceCode": "CN046010"
+    },
+    {
+      "adcode": "469030",
+      "name": "琼中黎族苗族自治县",
+      "provinceCode": "460000",
+      "kind": "省直管县级补充单元",
+      "fillable": true,
+      "sourceCode": "CN046130"
+    },
+    {
+      "adcode": "469007",
+      "name": "东方市",
+      "provinceCode": "460000",
+      "kind": "省直管县级补充单元",
+      "fillable": true,
+      "sourceCode": "CN046070"
+    },
+    {
+      "adcode": "469026",
+      "name": "昌江黎族自治县",
+      "provinceCode": "460000",
+      "kind": "省直管县级补充单元",
+      "fillable": true,
+      "sourceCode": "CN046030"
+    },
+    {
+      "adcode": "469002",
+      "name": "琼海市",
+      "provinceCode": "460000",
+      "kind": "省直管县级补充单元",
+      "fillable": true,
+      "sourceCode": "CN046120"
+    },
+    {
+      "adcode": "469028",
+      "name": "陵水黎族自治县",
+      "provinceCode": "460000",
+      "kind": "省直管县级补充单元",
+      "fillable": true,
+      "sourceCode": "CN046110"
+    },
+    {
+      "adcode": "460100",
+      "name": "海口市",
+      "provinceCode": "460000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN046080"
+    },
+    {
+      "adcode": "460200",
+      "name": "三亚市",
+      "provinceCode": "460000",
+      "kind": "地级行政区",
+      "fillable": true,
+      "sourceCode": "CN046150"
+    },
+    {
+      "adcode": "419001",
+      "name": "济源市",
+      "provinceCode": "410000",
+      "kind": "省直管县级补充单元",
+      "fillable": true,
+      "sourceCode": "CN041040"
+    },
+    {
+      "adcode": "469001",
+      "name": "五指山市",
+      "provinceCode": "460000",
+      "kind": "省直管县级补充单元",
+      "fillable": true,
+      "sourceCode": "CN046180"
+    }
+  ]
+}
